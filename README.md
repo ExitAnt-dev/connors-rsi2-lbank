@@ -27,7 +27,7 @@ https://render.com/deploy?repo=https://github.com/ExitAnt-dev/connors-rsi2-lbank
 
 ## Before you deploy
 
-- **LBank account registered with an ExitAnt invite code.** At every start the bot reads your own account's UID with your key and checks the invite code with LBank's affiliate API.
+- **LBank account registered with an ExitAnt invite code (`64JKW`, `65LV9`, `65LVC` or `65LTW`).** At every start the bot reads your own account's UID with your key and checks the invite code with LBank's affiliate API.
 - **API key** with futures trading permission. The key must be allowed to read the account and trade USDT perpetual futures.
   **Never enable the withdrawal permission** — the bot never withdraws, and a key without it cannot move funds out of your account even if it leaks.
   *For the Turtle merge's cash vault* the key needs transfer permission (futures ↔ spot).
